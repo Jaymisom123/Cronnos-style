@@ -1,0 +1,96 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/photo-1634595947394-87012e7b12ba.jfif) 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-size: contain;
+    
+  }
+  
+  .container {
+    text-align: center;
+    background: transparent;
+    padding: 20px 40px;
+    
+   
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Metal", serif;
+    color: rgb(112, 112, 112) ;
+    
+     
+    
+  }
+  
+  .display {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background:rgb(112, 112, 112) ;
+  }
+ 
+  
+  .controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .controls button:hover {
+    background: #eee;
+  }
+  
+  #start {
+    background: rgb(128, 123, 123) ;
+    color: rgb(7, 6, 6);
+  }
+  #start:hover {
+    background: rgb(68, 65, 65) ;
+    color: rgb(7, 6, 6);
+  }
+  #stop {
+    background: #f44336;
+    color: rgb(7, 6, 6);
+    font-size: 18px;
+  }
+  #stop:hover {
+    background: #e41d0f;
+    color: rgb(7, 6, 6);
+    font-size: 18px;
+    
+  }
+  
+  #reset {
+    background: #83c3f8;
+    color: rgb(7, 6, 6);
+    box-shadow: rgba(0, 0, 5, 0.80) 0px 5px 15px;
+  }
+  
+  #reset:hover {
+    background: #3886c5;
+    color: rgb(7, 6, 6);
+  }
