@@ -73,12 +73,12 @@ body {
     color: rgb(7, 6, 6);
   }
   #stop {
-    background: #f44336;
+    background: #d10d27;
     color: rgb(7, 6, 6);
     font-size: 18px;
   }
   #stop:hover {
-    background: #e41d0f;
+    background: #e93d3d;
     color: rgb(7, 6, 6);
     font-size: 18px;
     
